@@ -39,7 +39,7 @@
  body.wsite-checkout-page.affix .search-bar-wrap { position: absolute !important; }
  body.cart-full .wsite-nav-cart #wsite-nav-cart-a { width: 27px; height: 22px; background: url(theme/images/icon-cart-full-sprite.png?1507507163) no-repeat; background-size: 100%; background-position: top center; }
  body.cart-full .wsite-nav-cart:hover #wsite-nav-cart-a { background-position: bottom center; }
- body.affix .header-wrap .topbar { position: fixed; z-index: 8; height: 50px; background-color: #333333; border-bottom: none; }
+ body.affix .header-wrap .topbar { position: fixed; z-index: 8; height: 50px; background: rgba(55, 55, 55, 0.5); border-bottom: none; }
  body.affix .nav-wrap { position: fixed; top: 50px; }
  body.affix .search-bar-wrap { position: fixed; top: 50px; }
  body.affix #wsite-mini-cart { position: fixed !important; top: 50px !important; }
@@ -471,7 +471,7 @@
  .wsite-section-elements { overflow: hidden; }
  h2 font, div.paragraph font { line-height: inherit !important; }
  h2 font, p font { line-height: inherit !important; }
- .header-wrap .topbar { background: #373737; }
+ .header-wrap .topbar { background: rgba(55, 55, 55, 0.5); }
  .wsite-search .wsite-search-input { width: 90%; }
  .wsite-section { height: auto !important; }
  .banner-wrap .banner h2 { font-size: 2.25em; line-height: 1.25em; letter-spacing: 0.04em; }
