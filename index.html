@@ -1169,6 +1169,54 @@ if (document.documentElement.appReady || (window.inEditor && window.inEditor()))
 
     	</div><!-- end container -->
     </div><!-- end footer-wrap -->
+		
+<style>
+/*
+*Really useful, simple and responsive, back to top button.
+*Created with CSS, HTML and .js
+*Author: @robiriondo
+*/
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  /*The following will change the color of the button, feel free to pick any color*/
+  color: #ff6000;
+  cursor: pointer;
+  padding: 0px 10px;
+  border-radius: 50%;
+  font-size: 100px;
+}
+#myBtn:hover {
+  background-color: transparent;
+}
+</style>
+<!-- Show simple responsive button with HTML by using the ▴ symbol -->
+<button onclick="topFunction()" id="myBtn" title="Go to top" style="display: block;">▴</button>
+<script>
+//When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+//When the user clicks on the button, scroll to the top of the page
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+		
 	</div>
 
 	<div class="w-navpane nav mobile-nav">
